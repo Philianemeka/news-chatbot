@@ -1,0 +1,6 @@
+flask
+cohere
+openai
+gunicorn # Added gunicorn to the string literal
+requests
+beautifulsoup4
