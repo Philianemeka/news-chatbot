@@ -1,1 +1,2 @@
-web: gunicorn app:app
+gunicorn -w 4 -k gthread -b 0.0.0.0:8080 news_chatbot:app
+
